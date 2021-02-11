@@ -1,8 +1,8 @@
 let cep = window.document.querySelector("#cep-value");
 let modalOverlay = document.querySelector(".modal-overlay")
 let button = window.document.querySelector("#button");
-
-
+let btnMenu = document.querySelector('.btn-menu');
+let menuLateral = document.querySelector('.menu')
 // INNERS HTML
 
 
@@ -28,11 +28,13 @@ button.addEventListener('click',function(){
 })
 
 
-icon.addEventListener("click",function(){
+icon.addEventListener('click',function(){
   modalOverlay.classList.remove("show-overlay")
 })
 
-
+btnMenu.addEventListener('click',function(){
+  menuLateral.classList.toggle('show-menu')
+})
 
 //CALLBACKS
 function retorno(resposta){
