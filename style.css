@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    color:white;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+header{
+    display: flex;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: #40407a;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+    margin-left: 25px;
+    
+    font-size: 1.8rem;
+    
+}
+.gps{
+    margin-right: 15px;
+    
+}
+nav > ul{
+    display: flex;
+    margin-right: 30px;
+}
+
+.menu-content li{
+    margin: 0 10px;
+}
+
+.menu-content a{
+    
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+
+.content-rastreio{
+    position: relative;
+    display: flex;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    background:#483d8b;
+}
+
+
+.content-rastreio h1{
+    
+    font-size: 60px;
+}
+
+
+.content-rastreio p{
+    font-size: 20px;
+    
+ 
+}
+
+.content-button{
+    display: flex;
+    line-height: 40px;
+    justify-content: center;
+    
+}
+.content-button button,.content-button input{
+    height: 70px;
+    margin: 10px 0;
+    outline: none;
+   
+}
+
+.content-button input{
+    width: 390px;
+    color: black;
+
+    
+}
+
+.content-button button{
+    width: 170px;
+    background: #29294e;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+   
+}
+
+.login{
+    border: 1px solid red;
+    height: 80px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.login a{
+    margin: 0 20px;
+    background-color: red;
+    display: inline-block;
+    padding: 20px;
+
+}
+table{
+    font-size: 15px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+}
+th,td{
+    
+    padding: 25px;
+}
+
+th{
+    background: #29294e;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+td{
+    background:#483d8b;
+    border: 1px solid black;
+}
+
+
+.modal-overlay{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background: rgb(0,0, 0,0.5);
+    height: 100vh;
+    top: -100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: all .5s ease;
+}
+
+
+
+.show-overlay{
+    top: 0  !important;
+}
+
+a.icon-close{
+    float: right;
+    display: block;
+    
+    font-size: 40px;
+    margin: 10px 0 0 14px;
+    color: white;
+    cursor: pointer;
+ 
+}
+
+.title{
+    text-align: center;
+}
+
+.text-button{
+    font-size: 30px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        color: black;
+
+
+    }
+
+.autor{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+</head>
+<body>
+    <header>
+        <span class="logo"><i class="fas fa-map-marked-alt gps"></i>Busca Cep</span>
+        <nav>
+            <ul class="menu-content">
+                <li><a href="">Home</a></li>
+                <li><a href="">Rastreamento</a></li>
+                <li><a href="">Buscar Cep</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-rastreio">
+        <div class="conteudo">
+            <div class="title">
+                <h1>Busca cep <i class="fas fa-shipping-fast"></i></h1>
+            <p>Rastreio de encomendas e ceps com facilidade!</p>
+            </div>
+
+            <div class="content-button">
+                <input id="cep-value" type="number" placeholder="local do rastreio" required>
+                <button id="button"> <span class="text-button"><i class="fas fa-search"></i></span></button>
+            </div>
+
+            <div class="modal-overlay">
+          
+                <div class="cep-modal">
+                    <a class="icon-close"><i class="fas fa-times icon"></i></a>
+                    <table>
+                        <tr>
+                            <th>Localidade</th>
+                            <th>Logradouro</th>
+                            <th>complemento</th>
+                            <th>Bairro</th>
+                            <th>UF</th>
+                            <th>DDD</th>
+                        </tr>
+     
+                        <tr>
+                            <td class="localidade"></td>
+                            <td class="logradouro"></td>
+                            <td class="complemento"></td>
+                            <td class="bairro"></td>
+                            <td class="uf"></td>
+                            <td class="ddd"></td>
+                         </tr>
+                    </table>
+                 </div>
+            </div>
+        </div>
+        <span class="autor">
+            Developer by: Marcos vinicius
+        </span>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
