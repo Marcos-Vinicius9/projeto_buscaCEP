@@ -44,10 +44,28 @@ nav > ul{
 }
 
 .menu-content a{
-    
+    position: relative;
     text-transform: uppercase;
     padding: 10px;
     
+}
+.menu-content a:hover{
+    color: black;
+}
+.menu-content a::after{
+    content: '';
+    height: 0px;
+    width: 1px;
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-content a:hover::after{
+    height: 50px;
+    transition: all .5s ease-in-out;
 }
 .btn-menu{
     font-size: 40px;
@@ -257,5 +275,8 @@ input[type=number]::-webkit-inner-spin-button,
 
     .content-button button,.content-button input{
         height: 50px;
+    }
+    .menu-content a:hover::after{
+        display: none;
     }
 }
