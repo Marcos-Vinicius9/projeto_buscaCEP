@@ -222,7 +222,7 @@ input[type=number]::-webkit-inner-spin-button,
         position: absolute;
         z-index: 1;
         padding: 40px 0;
-        height: 100vh;
+        bottom: 0;
         transition: all .5s ease-in;
         border-radius: 10px;
         
@@ -250,5 +250,9 @@ input[type=number]::-webkit-inner-spin-button,
     }
     .icon-close{
         font-size: 20px;
+    }
+
+    .content-button button,.content-button input{
+        height: 50px;
     }
 }
