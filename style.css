@@ -17,7 +17,7 @@ header{
     display: flex;
     width: 100%;
     height: 80px;
-    background: #40407a;
+    background:#483d8b;
     align-items: center;
     justify-content: space-between;
 }
