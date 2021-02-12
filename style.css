@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
@@ -26,7 +24,6 @@ header{
 .logo{
     display: inline-block;
     margin-left: 25px;
-    
     font-size: 1.8rem;
     
 }
@@ -85,15 +82,12 @@ nav > ul{
 
 
 .content-rastreio h1{
-    
     font-size: 60px;
 }
 
 
 .content-rastreio p{
     font-size: 20px;
-    
- 
 }
 
 .content-button{
@@ -106,12 +100,10 @@ nav > ul{
     height: 70px;
     margin: 10px 0;
     outline: none;
-   
 }
 
 .content-button input{
     width: 390px;
-    
     color: black;
 
     
@@ -125,7 +117,6 @@ nav > ul{
     font-size: 15px;
     cursor: pointer;
     border: none;
-   
 }
 
 .login{
@@ -135,7 +126,6 @@ nav > ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .login a{
@@ -154,7 +144,6 @@ table{
     
 }
 th,td{
-    
     padding: 25px;
 }
 
@@ -168,7 +157,6 @@ td{
     background:#483d8b;
     border: 1px solid black;
 }
-
 
 .modal-overlay{
     position: fixed;
@@ -197,12 +185,10 @@ td{
 a.icon-close{
     float: right;
     display: block;
-    
     font-size: 40px;
     margin: 10px 0 0 14px;
     color: white;
     cursor: pointer;
- 
 }
 
 .title{
@@ -217,8 +203,6 @@ a.icon-close{
 input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
-
-
     }
 
 .autor{
@@ -243,8 +227,6 @@ input[type=number]::-webkit-inner-spin-button,
         bottom: 0;
         transition: all .5s ease-in;
         border-radius: 10px;
-        
-        
     }
 
     .menu-content{
